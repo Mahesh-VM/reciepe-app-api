@@ -121,4 +121,4 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 # default authentication
-AUTH_USER_MODEL = 'core.UserModel'
+AUTH_USER_MODEL = 'core.User'

@@ -25,7 +25,7 @@ class UserManager(BaseUserManager):
         return user
 
 
-class UserModel(AbstractBaseUser, PermissionsMixin):
+class User(AbstractBaseUser, PermissionsMixin):
     """Saves the user provided data """
     email = models.EmailField(max_length=255, unique=True)
     name = models.CharField(max_length=255)
